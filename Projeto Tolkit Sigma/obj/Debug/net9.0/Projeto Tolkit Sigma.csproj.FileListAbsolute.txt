@@ -1,0 +1,14 @@
+C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\bin\Debug\net9.0\Projeto Tolkit Sigma.exe
+C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\bin\Debug\net9.0\Projeto Tolkit Sigma.deps.json
+C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\bin\Debug\net9.0\Projeto Tolkit Sigma.runtimeconfig.json
+C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\bin\Debug\net9.0\Projeto Tolkit Sigma.dll
+C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\bin\Debug\net9.0\Projeto Tolkit Sigma.pdb
+C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\Projeto Tolkit Sigma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\Projeto Tolkit Sigma.AssemblyInfoInputs.cache
+C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\Projeto Tolkit Sigma.AssemblyInfo.cs
+C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\Projeto Tolkit Sigma.csproj.CoreCompileInputs.cache
+C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\Projeto Tolkit Sigma.dll
+C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\refint\Projeto Tolkit Sigma.dll
+C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\Projeto Tolkit Sigma.pdb
+C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\Projeto Tolkit Sigma.genruntimeconfig.cache
+C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\ref\Projeto Tolkit Sigma.dll
