@@ -16,7 +16,6 @@ public class MenuClassificadorTIM : BaseMenu
         _servicoMenu = servicoMenu;
     }
 
-    // MenuClassificadorTIM.cs
     public override void MostarOpcoes()
     {
         string caminho;
