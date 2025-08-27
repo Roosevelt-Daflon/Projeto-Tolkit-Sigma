@@ -1,0 +1,5 @@
+[
+  { "Descricao": "Problema 1: Soma de dois números", "ClassificacaoCorreta": "T" },
+  { "Descricao": "Problema 2: Parada do programa", "ClassificacaoCorreta": "I" },
+  { "Descricao": "Problema 3: Decidir se um programa é infinito", "ClassificacaoCorreta": "N" }
+]

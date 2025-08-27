@@ -12,10 +12,12 @@ public class MenuPrincipal : BaseMenu
     {
         _servicoMenu = servicoMenu;
         Opcoes.Add(new MenuVerificadorAlfabetoCadeia(servicoMenu));
+        Opcoes.Add(new MenuClassificadorTIM(servicoMenu));
     }
     public override void MostarOpcoes()
     {
         Console.WriteLine("1 - Verficador de Alfabeto e Cadeia");
+        Console.WriteLine("2 - Classificador T/I/N por JSON");
         Console.Write("Escolha uma opção: ");
         var opcaoInput = Console.ReadLine();
 
