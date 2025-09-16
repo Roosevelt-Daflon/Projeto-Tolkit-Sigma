@@ -16,67 +16,172 @@ public class MenuAvaliadorProposicional : BaseMenu
 
     public override void MostarOpcoes()
     {
-        var formula = SelecionarFormula();
-        if (formula == null)
+        Console.WriteLine("Formulas válidas:");
+        Console.WriteLine("conjunção: (p ∧ q ∧ r) - 1");
+        Console.WriteLine("disjunção: (p ∨ q ∨ r) - 2");
+        Console.WriteLine("implicação: ((p ∧ q) → r) - 3");
+        Console.Write("Escolha a fórmula: ");
+
+        var op = Console.ReadLine();
+        if (op is not ("1" or "2" or "3"))
         {
-            Voltar();
+            Console.WriteLine("Opção inválida. voltando ao menu principal...");
+            Console.ReadLine();
+            _servicoMenu.AlterarMenu(new MenuPrincipal(_servicoMenu));
+        }
+        
+        switch (op)
+        {
+            case "1":
+                AvaliarConjuncao();
+                break;
+            case "2":
+                AvaliarDisjuncao();
+                break;
+            case "3":
+                AvaliarImplicacao();
+                break;
+        }
+    }
+
+    private void AvaliarImplicacao()
+    {
+        Console.WriteLine("Você escolheu a implicação ((p ∧ q) → r).");
+        Console.Write("Digite o valor de p (V/F): ");
+        var pInput = Console.ReadLine()?.Trim().ToUpper();
+        Console.Write("Digite o valor de q (V/F): ");
+        var qInput = Console.ReadLine()?.Trim().ToUpper();
+        Console.Write("Digite o valor de r (V/F): ");
+        var rInput = Console.ReadLine()?.Trim().ToUpper();
+        Console.Write("Digite o resultado esperado (V/F): ");
+        try
+        {
+            var p = _servico.TratarValorProposicional(pInput);
+            var q = _servico.TratarValorProposicional(qInput);
+            var r = _servico.TratarValorProposicional(rInput);
+            var resultadoCalculado = _servico.AvaliarImplicacao(p, q, r);
+            Console.WriteLine($"\nResultado calculado: {(resultadoCalculado ? "V" : "F")}");
+            ImprimirTabelaVerdadeImplicacao();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("\n" + e.Message);
+            AvaliarImplicacao();
             return;
         }
+    }
 
-        Console.WriteLine($"\nFórmula escolhida: {formula.Expressao}");
-
-        var p = LerBool("Valor de P (T/F): ");
-        var q = LerBool("Valor de Q (T/F): ");
-        var r = LerBool("Valor de R (T/F): ");
-
-        var resultado = _servico.Avaliar(formula, p, q, r);
-        Console.WriteLine($"\nResultado: {formula.Expressao} = {BoolStr(resultado)}");
-
-        Console.Write("\nGerar tabela-verdade completa? (S/N): ");
-        var opt = Console.ReadLine()?.Trim().ToUpper();
-        if (opt == "S")
-            ImprimirTabela(formula);
-
+    private void ImprimirTabelaVerdadeImplicacao()
+    {
+        Console.WriteLine("\nTabela Verdade para ((p ∧ q) → r):");
+        Console.WriteLine("P\tQ\tR\tResultado");
+        Console.WriteLine("-------------------------------");
+        var valores = new[] { true, false };
+        foreach (var p in valores)
+        {
+            foreach (var q in valores)
+            {
+                foreach (var r in valores)
+                {
+                    var resultado = _servico.AvaliarImplicacao(p, q, r);
+                    Console.WriteLine($"{(p ? "V" : "F")}\t{(q ? "V" : "F")}\t{(r ? "V" : "F")}\t{(resultado ? "V" : "F")}");
+                }
+            }
+        }
         Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal...");
         Console.ReadKey();
-        Voltar();
+        _servicoMenu.AlterarMenu(new MenuPrincipal(_servicoMenu));
     }
 
-    private FormulaProposicional? SelecionarFormula()
+    private void AvaliarDisjuncao()
     {
-        Console.WriteLine("\nFormulas disponíveis:");
-        foreach (var f in _servico.Listar())
-            Console.WriteLine($"{f.Id} - {f.Nome} ({f.Expressao})");
+        Console.WriteLine("Você escolheu a disjunção (p ∨ q ∨ r).");
+        Console.Write("Digite o valor de p (V/F): ");
+        var pInput = Console.ReadLine()?.Trim().ToUpper();
+        Console.Write("Digite o valor de q (V/F): ");
+        var qInput = Console.ReadLine()?.Trim().ToUpper();
+        Console.Write("Digite o valor de r (V/F): ");
+        var rInput = Console.ReadLine()?.Trim().ToUpper();
+        Console.Write("Digite o resultado esperado (V/F): ");
 
-        Console.Write("Escolha o id: ");
-        var input = Console.ReadLine();
-        if (!int.TryParse(input, out var id))
-            return null;
-        return _servico.Obter(id);
+        var p = _servico.TratarValorProposicional(pInput);
+        var q = _servico.TratarValorProposicional(qInput);
+        var r = _servico.TratarValorProposicional(rInput);
+        var resultadoCalculado = _servico.AvaliarDisjuncao(p, q, r);
+        Console.WriteLine($"\nResultado calculado: {(resultadoCalculado ? "V" : "F")}");
+        ImprimirTabelaVerdadeDejuncao();
     }
 
-    private bool LerBool(string msg)
+    private void ImprimirTabelaVerdadeDejuncao()
     {
-        while (true)
+        Console.WriteLine("\nTabela Verdade para (p ∨ q ∨ r):");
+        Console.WriteLine("P\tQ\tR\tResultado");
+        Console.WriteLine("-------------------------------");
+        var valores = new[] { true, false };
+        foreach (var p in valores)
         {
-            Console.Write(msg);
-            var txt = Console.ReadLine()?.Trim().ToUpper();
-            if (txt is "T" or "1" or "V") return true;
-            if (txt is "F" or "0") return false;
-            Console.WriteLine("Entrada inválida. Use T/F.");
+            foreach (var q in valores)
+            {
+                foreach (var r in valores)
+                {
+                    var resultado = _servico.AvaliarDisjuncao(p, q, r);
+                    Console.WriteLine($"{(p ? "V" : "F")}\t{(q ? "V" : "F")}\t{(r ? "V" : "F")}\t{(resultado ? "V" : "F")}");
+                }
+            }
+        }
+        Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal...");
+        Console.ReadKey();
+        _servicoMenu.AlterarMenu(new MenuPrincipal(_servicoMenu));
+    }
+
+    public void AvaliarConjuncao()
+    {
+        Console.WriteLine("Você escolheu a conjunção (p ∧ q ∧ r).");
+        Console.Write("Digite o valor de p (V/F): ");
+        var pInput = Console.ReadLine()?.Trim().ToUpper();
+        Console.Write("Digite o valor de q (V/F): ");
+        var qInput = Console.ReadLine()?.Trim().ToUpper();
+        Console.Write("Digite o valor de r (V/F): ");
+        var rInput = Console.ReadLine()?.Trim().ToUpper();
+        Console.Write("Digite o resultado esperado (V/F): ");
+        try
+        {
+            var p = _servico.TratarValorProposicional(pInput);
+            var q = _servico.TratarValorProposicional(qInput);
+            var r = _servico.TratarValorProposicional(rInput);
+            var resultadoCalculado = _servico.AvaliarConjuncao(p, q, r);
+            Console.WriteLine($"\nResultado calculado: {(resultadoCalculado ? "V" : "F")}");
+
+
+            ImprimirTabelaVerdadeConjuncao();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("\n" + e.Message);
+            AvaliarConjuncao();
+            return;
         }
     }
 
-    private void ImprimirTabela(FormulaProposicional f)
+    private void ImprimirTabelaVerdadeConjuncao()
     {
-        Console.WriteLine($"\nTabela-verdade de {f.Expressao}:");
-        Console.WriteLine("P Q R | F");
-        Console.WriteLine("-------------");
-        foreach (var linha in _servico.GerarTabela(f))
-            Console.WriteLine($"{BoolStr(linha.P)} {BoolStr(linha.Q)} {BoolStr(linha.R)} | {BoolStr(linha.Resultado)}");
+        Console.WriteLine("\nTabela Verdade para (p ∧ q ∧ r):");
+        Console.WriteLine("P\tQ\tR\tResultado");
+        Console.WriteLine("-------------------------------");
+        var valores = new[] { true, false };
+        foreach (var p in valores)
+        {
+            foreach (var q in valores)
+            {
+                foreach (var r in valores)
+                {
+                    var resultado = _servico.AvaliarConjuncao(p, q, r);
+                    Console.WriteLine($"{(p ? "V" : "F")}\t{(q ? "V" : "F")}\t{(r ? "V" : "F")}\t{(resultado ? "V" : "F")}");
+                }
+            }
+        }
+        Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal...");
+        Console.ReadKey();
+        _servicoMenu.AlterarMenu(new MenuPrincipal(_servicoMenu));
     }
-
-    private string BoolStr(bool b) => b ? "T" : "F";
-
-    private void Voltar() => _servicoMenu.AlterarMenu(new MenuPrincipal(_servicoMenu));
 }
