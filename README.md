@@ -9,3 +9,10 @@ A proposta é oferecer um conjunto de funcionalidades que permitem:
 * Avaliar expressões proposicionais e gerar tabelas-verdade.
 * Simular autômatos e experimentos computacionais.
 * Explorar conceitos de problemas tratáveis, intratáveis e não computáveis.
+
+
+Alunos:
+- Roosevelt Daflon Cardoso Coêlho - 06003098
+- Alex Sandro Diniz Alves Junior - 06003943
+- Sérgio Guarilha de Aquino Vidal Gomes - 06003267
+- Renan Dias Ferreira - 06003250
