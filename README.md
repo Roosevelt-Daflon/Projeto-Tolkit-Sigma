@@ -16,3 +16,4 @@ Alunos:
 - Alex Sandro Diniz Alves Junior - 06003943
 - Sérgio Guarilha de Aquino Vidal Gomes - 06003267
 - Renan Dias Ferreira - 06003250
+- Gabriel Silva Medina - 06003805
