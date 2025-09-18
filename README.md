@@ -1,16 +1,14 @@
 # Projeto Toolkit Sigma
 
 
-## 🚀 Começando
-
-### ☑️ Pré-requisitos
+### Pré-requisitos
 
 Antes de começar com o **Projeto-Tolkit-Sigma**, certifique-se de que seu ambiente de execução atende aos seguintes requisitos:
 
 - **Framework:** dotnet 9
     
 
-### ⚙️ Instalação
+### Instalação
 
 Instale o **Projeto-Tolkit-Sigma** usando um dos seguintes métodos:
 
@@ -39,7 +37,7 @@ Instale o **Projeto-Tolkit-Sigma** usando um dos seguintes métodos:
 ❯ dotnet restore
 ```
 
-### 🤖 Uso
+### Uso
 
 Execute o **Projeto-Tolkit-Sigma** usando o seguinte comando:  
 **Usando `nuget`**  [](https://docs.microsoft.com/pt-br/dotnet/csharp/)
