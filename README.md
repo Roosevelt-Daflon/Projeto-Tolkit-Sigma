@@ -7,9 +7,7 @@
 
 Antes de começar com o **Projeto-Tolkit-Sigma**, certifique-se de que seu ambiente de execução atende aos seguintes requisitos:
 
-- **Linguagem de Programação:** CSharp
-    
-- **Gerenciador de Pacotes:** Nuget
+- **Framework:** dotnet 9
     
 
 ### ⚙️ Instalação
