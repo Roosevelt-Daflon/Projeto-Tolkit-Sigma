@@ -1,15 +1,54 @@
 # Projeto Toolkit Sigma
 
-Aplicativo **console em C# (.NET 9)** que reúne módulos interativos voltados para a exploração de **linguagens formais, autômatos e decidibilidade**.
 
-A proposta é oferecer um conjunto de funcionalidades que permitem:
+## 🚀 Começando
 
-* Verificar cadeias e símbolos em alfabetos definidos.
-* Classificar e decidir propriedades de linguagens formais.
-* Avaliar expressões proposicionais e gerar tabelas-verdade.
-* Simular autômatos e experimentos computacionais.
-* Explorar conceitos de problemas tratáveis, intratáveis e não computáveis.
+### ☑️ Pré-requisitos
 
+Antes de começar com o **Projeto-Tolkit-Sigma**, certifique-se de que seu ambiente de execução atende aos seguintes requisitos:
+
+- **Linguagem de Programação:** CSharp
+    
+- **Gerenciador de Pacotes:** Nuget
+    
+
+### ⚙️ Instalação
+
+Instale o **Projeto-Tolkit-Sigma** usando um dos seguintes métodos:
+
+**Compilar a partir do código-fonte:**
+
+1. Clone o repositório do Projeto-Tolkit-Sigma:
+    
+
+```sh
+❯ git clone https://github.com/Roosevelt-Daflon/Projeto-Tolkit-Sigma
+```
+
+2. Navegue até o diretório do projeto:
+    
+
+```sh
+❯ cd Projeto-Tolkit-Sigma
+```
+
+3. Instale as dependências do projeto:
+    
+
+**Usando `nuget`**  [](https://docs.microsoft.com/pt-br/dotnet/csharp/)
+
+```sh
+❯ dotnet restore
+```
+
+### 🤖 Uso
+
+Execute o **Projeto-Tolkit-Sigma** usando o seguinte comando:  
+**Usando `nuget`**  [](https://docs.microsoft.com/pt-br/dotnet/csharp/)
+
+```sh
+❯ dotnet run
+```
 
 Alunos:
 - Roosevelt Daflon Cardoso Coêlho - 06003098
