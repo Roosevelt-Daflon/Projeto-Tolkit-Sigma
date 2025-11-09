@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Projeto Tolkit Sigma")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1be3f8008e72ea114e009afe084ce71473091dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29d8403c07d002df05a14a3767f4d32895424fb1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Projeto Tolkit Sigma")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Projeto Tolkit Sigma")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

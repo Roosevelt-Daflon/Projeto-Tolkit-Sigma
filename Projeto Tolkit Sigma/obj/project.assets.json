@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Roosevelt\\.nuget\\packages\\": {}
+    "/home/roosevelt/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Roosevelt\\RiderProjects\\Projeto Tolkit Sigma\\Projeto Tolkit Sigma\\Projeto Tolkit Sigma.csproj",
+      "projectUniqueName": "/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/Projeto Tolkit Sigma.csproj",
       "projectName": "Projeto Tolkit Sigma",
-      "projectPath": "C:\\Users\\Roosevelt\\RiderProjects\\Projeto Tolkit Sigma\\Projeto Tolkit Sigma\\Projeto Tolkit Sigma.csproj",
-      "packagesPath": "C:\\Users\\Roosevelt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Roosevelt\\RiderProjects\\Projeto Tolkit Sigma\\Projeto Tolkit Sigma\\obj\\",
+      "projectPath": "/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/Projeto Tolkit Sigma.csproj",
+      "packagesPath": "/home/roosevelt/.nuget/packages/",
+      "outputPath": "/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Roosevelt\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/roosevelt/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -44,7 +44,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -60,12 +60,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.9, 9.0.9]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Roosevelt\\.dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.110/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

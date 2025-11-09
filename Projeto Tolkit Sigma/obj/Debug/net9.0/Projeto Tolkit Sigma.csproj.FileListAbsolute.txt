@@ -1,15 +1,30 @@
-C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\bin\Debug\net9.0\Projeto Tolkit Sigma.exe
-C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\bin\Debug\net9.0\Projeto Tolkit Sigma.deps.json
-C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\bin\Debug\net9.0\Projeto Tolkit Sigma.runtimeconfig.json
-C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\bin\Debug\net9.0\Projeto Tolkit Sigma.dll
-C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\bin\Debug\net9.0\Projeto Tolkit Sigma.pdb
-C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\Projeto Tolkit Sigma.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\Projeto Tolkit Sigma.AssemblyInfoInputs.cache
-C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\Projeto Tolkit Sigma.AssemblyInfo.cs
-C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\Projeto Tolkit Sigma.csproj.CoreCompileInputs.cache
-C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\Projeto Tolkit Sigma.dll
-C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\refint\Projeto Tolkit Sigma.dll
-C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\Projeto Tolkit Sigma.pdb
-C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\Projeto Tolkit Sigma.genruntimeconfig.cache
-C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\ref\Projeto Tolkit Sigma.dll
-C:\Users\Roosevelt\RiderProjects\Projeto Tolkit Sigma\Projeto Tolkit Sigma\obj\Debug\net9.0\Projeto Tolkit Sigma.sourcelink.json
+C:/Users/Roosevelt/RiderProjects/Projeto Tolkit Sigma/Projeto Tolkit Sigma/bin/Debug/net9.0/Projeto Tolkit Sigma.exe
+C:/Users/Roosevelt/RiderProjects/Projeto Tolkit Sigma/Projeto Tolkit Sigma/bin/Debug/net9.0/Projeto Tolkit Sigma.deps.json
+C:/Users/Roosevelt/RiderProjects/Projeto Tolkit Sigma/Projeto Tolkit Sigma/bin/Debug/net9.0/Projeto Tolkit Sigma.runtimeconfig.json
+C:/Users/Roosevelt/RiderProjects/Projeto Tolkit Sigma/Projeto Tolkit Sigma/bin/Debug/net9.0/Projeto Tolkit Sigma.dll
+C:/Users/Roosevelt/RiderProjects/Projeto Tolkit Sigma/Projeto Tolkit Sigma/bin/Debug/net9.0/Projeto Tolkit Sigma.pdb
+C:/Users/Roosevelt/RiderProjects/Projeto Tolkit Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Roosevelt/RiderProjects/Projeto Tolkit Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.AssemblyInfoInputs.cache
+C:/Users/Roosevelt/RiderProjects/Projeto Tolkit Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.AssemblyInfo.cs
+C:/Users/Roosevelt/RiderProjects/Projeto Tolkit Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.csproj.CoreCompileInputs.cache
+C:/Users/Roosevelt/RiderProjects/Projeto Tolkit Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.dll
+C:/Users/Roosevelt/RiderProjects/Projeto Tolkit Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/refint/Projeto Tolkit Sigma.dll
+C:/Users/Roosevelt/RiderProjects/Projeto Tolkit Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.pdb
+C:/Users/Roosevelt/RiderProjects/Projeto Tolkit Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.genruntimeconfig.cache
+C:/Users/Roosevelt/RiderProjects/Projeto Tolkit Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/ref/Projeto Tolkit Sigma.dll
+C:/Users/Roosevelt/RiderProjects/Projeto Tolkit Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.sourcelink.json
+/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/bin/Debug/net9.0/Projeto Tolkit Sigma
+/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/bin/Debug/net9.0/Projeto Tolkit Sigma.deps.json
+/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/bin/Debug/net9.0/Projeto Tolkit Sigma.runtimeconfig.json
+/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/bin/Debug/net9.0/Projeto Tolkit Sigma.dll
+/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/bin/Debug/net9.0/Projeto Tolkit Sigma.pdb
+/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.GeneratedMSBuildEditorConfig.editorconfig
+/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.AssemblyInfoInputs.cache
+/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.AssemblyInfo.cs
+/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.csproj.CoreCompileInputs.cache
+/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.sourcelink.json
+/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.dll
+/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/refint/Projeto Tolkit Sigma.dll
+/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.pdb
+/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/Projeto Tolkit Sigma.genruntimeconfig.cache
+/home/roosevelt/RiderProjects/Projeto-Tolkit-Sigma/Projeto Tolkit Sigma/obj/Debug/net9.0/ref/Projeto Tolkit Sigma.dll
